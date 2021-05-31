@@ -25,6 +25,8 @@ function __brewAbbreviations.init
   __brewAbbreviations.create_abbr masl         mas list
   __brewAbbreviations.create_abbr masr         mas search
 
+  __brewAbbreviations.create_abbr opa         open -a
+
   # Cleanup declared functions
   functions -e __brewAbbreviations.create_abbr
 
